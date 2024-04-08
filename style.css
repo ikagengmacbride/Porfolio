@@ -9,7 +9,28 @@
 
 body {
   font-family: "Poppins", sans-serif;
+    background: var(--bg-color);
+    
 }
+/* :root{
+  --bg-color: #ffffff;
+  --first_color: #ffffff;
+  --second-color: #444444;
+  --black-color: #000000;
+  --medium-dark: #444444;
+  --orange-color: #ffa500;
+  --blue-color: #0b7dda;
+  --icons-bg: #f4f4f4;
+}
+body.dark{
+  --bg-color: #242526;
+  --first_color: #ffffff;
+  --second-color: #eeeeee;
+  --black-color: #ffffff;
+  --orange-color: #ffa500;
+  --blue-color: #0b7dda;
+  --icons-bg: #242526;
+} */
 
 html {
   scroll-behavior: smooth;
