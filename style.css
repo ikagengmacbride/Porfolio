@@ -1,7 +1,7 @@
 /* GENERAL */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -80,7 +80,12 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 40px;
+  font-weight: 600;
+    font-family: 'Delicious Handrawn', cursive;
+    background-image: linear-gradient(43deg,#4158D0 0%,#C850CD 46%,#FFCC70 100%);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .logo:hover {
